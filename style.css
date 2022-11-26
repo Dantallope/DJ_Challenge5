@@ -61,20 +61,19 @@ textarea{
   border: 3px solid black;
 }
 
-.saveBtn {
+.submit {
   border-left: 1px solid black;
+  height: 50px;
+  width: 50px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
   padding: 5px;
 }
-.saveBtn i{
-  color: #000000;
-  background-color: #000000;
-}
 
-.saveBtn i:hover {
+
+.submit:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
